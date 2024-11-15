@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Install and Start HTTPD Server') {
             steps {
-                // Update system, install HTTPD (Apache) server, and start the service
+                // Update system, install New HTTPD (Apache) server, and start the service
                 sh '''
                 sudo apt-get update -y
                 sudo apt-get install apache2 -y
